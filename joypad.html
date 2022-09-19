@@ -17,6 +17,14 @@
              float: left;
     }
 
+    
+       #container{
+        border: 1px outset black;
+        
+        height: 100px;
+        width: 10;
+       }
+    
        
   </style>
  <body>
@@ -38,15 +46,8 @@
         </button>
     </div>
 
-    <p id="comm1">
-        conteggio su:
-    </p>
-
-    
-    <p id="sinistra">
-        conteggio giù:
-    </p>
-    <br><br>
+   
+    <br><br><br><br><br><br>
  
    <div id="boxe" class="comm" onclick="comm2()"> 
     <button>
@@ -81,8 +82,24 @@
         </button>
     </div>
 
+    <br><br><br><br><br><br>
 
-  
+    <div id="container">
+    <p>
+        conteggio su/giù:
+    </p>
+    <p id="comm1">
+        
+    </p>
+
+    <p>
+        conteggio destra/sinistra:
+    </p>
+    
+    <p id="sinistra">
+        
+    </p>
+</div>
   </body>
   <script>
 var counterVal = 0;
